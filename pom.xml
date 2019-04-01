@@ -7,6 +7,14 @@
     <groupId>group1</groupId>
     <artifactId>artifactOne</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.ops4j.pax.tipi</groupId>
+            <artifactId>org.ops4j.pax.tipi.junit</artifactId>
+            <version>4.12.0.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
